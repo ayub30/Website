@@ -1,0 +1,27 @@
+* {
+    background-color: darkslategray;
+}
+
+.blog-post {
+    border: 1px solid white;
+    padding: 10px;
+    font-family: 'Bebas Neue';
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-family: 'Bebas Neue';
+}
+
+textarea {
+    background-color: white;
+}
+
+#text {
+    background-color: white;
+}

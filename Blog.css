@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  border: 1px, solid, black;
+  flex-wrap: wrap;
+  background-color: darkslategray;
+  grid-template-rows: 1;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+.container div {
+  color: white;
+  padding: 10px;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  border: 2px solid white;
+}
+
+h1 {
+  font-family: Bebas Neue;
+}
+
+#button1 {
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  background-color: gray;
+  font-family: sans-serif;
+
+  color: white;
+  font-family: 'Bebas Neue';
+}
+
+#button2 {
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  background-color: gray;
+  font-family: sans-serif;
+
+  color: white;
+  font-family: 'Bebas Neue';
+}
+
+#Blog {
+  width: 400px;
+  height: 150px;
+  font-family: 'Bebas Neue';
+}
+
+#Title {
+  width: 400px;
+  height: 50px;
+  font-family: 'Bebas Neue';
+}
+
+#logout {
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  font-family: 'Bebas Neue';
+}

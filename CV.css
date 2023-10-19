@@ -1,0 +1,14 @@
+body{
+    background-color: darkslategray;
+}
+div
+{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  font-family: 'Bebas Neue' ;
+  margin:10px
+
+}

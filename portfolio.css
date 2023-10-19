@@ -1,0 +1,71 @@
+@import url(https://fonts.google.com/specimen/Oswald);
+
+.container {
+  display: flex;
+  border: 1px, solid, black;
+  flex-wrap: wrap;
+  background-color: darkslategray;
+  grid-template-rows: 1;
+  border-radius: 5px;
+
+}
+
+.container div {
+  color: white;
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  border: 5px;
+  width: 50%;
+}
+
+#footer {
+  align-items: baseline;
+  text-align: end;
+}
+
+#headernavigation_bar {
+  width: 3000px;
+  height: 400px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 60px;
+  overflow: hidden;
+  background-color: darkslategrey;
+  border-radius: 5px;
+}
+
+li a {
+  float: left;
+  text-align: center;
+  display: block;
+  padding: 5px 50px;
+  color: white;
+  text-decoration: none;
+  border-right: 3px solid black;
+  min-width: 60px;
+}
+
+body {
+  font-family: 'Bebas Neue';
+}
+
+.Skills_Box img {
+  text-decoration: none;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+#about_me_box img {
+  padding: 10px
+}
+header
+{
+  font-size: 56px;
+}

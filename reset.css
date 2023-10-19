@@ -1,0 +1,99 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 200px 500px;
+  grid-template-areas:
+    "header header "
+    "sidebar content"
+    "sidebar content"
+  ;
+}
+
+.header {
+  font-size: 10px;
+  background-color: green;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+
+}
+
+.links {
+  text-align: center;
+  color: lightgreen;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.grid-item {
+  border-radius: 3px;
+  border-color: black;
+  border: 5px solid;
+  background-color: green;
+  width: 2fr;
+  height: 1fr;
+  margin: 5px;
+}
+
+.grid-item-1 {
+  grid-area: header;
+  grid-row: 100px;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+.header-text {
+  font-size: 35px;
+  text-align: center;
+  color: lightgreen;
+  margin-left: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  margin-left: 270px;
+}
+
+.ayub {
+  align-items: center;
+}
+
+figcaption {
+  padding-top: 13px;
+  color: lightgreen;
+}
+
+.about-me {
+  color: lightgreen;
+  text-align: center;
+}
+
+.skills-pics {
+  width: 100px;
+  height: 120px;
+  padding-top: 12px;
+}
+
+.my-skills {
+  text-align: center;
+  color: lightgreen;
+}
